@@ -1,0 +1,5 @@
+def nif():
+    x=input("Dime un numero")
+    if x<100000000:
+        resto=x%23
+        print resto

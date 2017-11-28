@@ -1,0 +1,7 @@
+def sumador():
+    x=input("dime el primer número")
+    y=input("dime el segundo número")
+    print "la suma vale"
+    print x,"+",y,"=",x+y
+sumador()
+    

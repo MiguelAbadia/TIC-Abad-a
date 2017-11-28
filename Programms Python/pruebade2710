@@ -1,0 +1,13 @@
+def cambiador_de_numeros():
+    x=input("Dime un numero")
+    suma=0
+    while x>0:
+        x=x/10
+        suma=suma+1
+    return suma
+cambiador_de_numeros()
+def reordena_cifras():
+
+    
+    
+        
