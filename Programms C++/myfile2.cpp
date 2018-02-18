@@ -4,10 +4,10 @@
 using namespace std;
 int main(){
     int exit;
-    ifstream file("miFichero.txt");
+    ifstream file("Agenda.txt");
     string message;
     getline(file,message);
-    cout<<"La primera linea dice:";
+    cout<<"La primera linea dice:"<<endl;
     cout<<message;
     cin>>exit;
 }
